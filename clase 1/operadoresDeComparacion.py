@@ -23,4 +23,4 @@ print(f'Resultado >= : {resul}')
 
 resul = a<=b
 
-print(f'Resultado >= : {resul}')
+print(f'Resultado <= : {resul}')
