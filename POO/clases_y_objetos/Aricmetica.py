@@ -20,10 +20,11 @@ class Aricmetica:
     
 
 
-aricmetica = Aricmetica(2,2)
+if __name__ == '__main__':
+    aricmetica = Aricmetica(2,2)
 
-suma = aricmetica.sumar()
-resta = aricmetica.restar()
-multi = aricmetica.multiplicar()
-divi = aricmetica.dividir()
-print(f'Suma: {suma} Resta: {resta} Multiplicacion: {multi} Dividir: {divi:.0f}')
+    suma = aricmetica.sumar()
+    resta = aricmetica.restar()
+    multi = aricmetica.multiplicar()
+    divi = aricmetica.dividir()
+    print(f'Suma: {suma} Resta: {resta} Multiplicacion: {multi} Dividir: {divi:.0f}')
