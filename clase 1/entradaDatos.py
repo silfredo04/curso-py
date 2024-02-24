@@ -11,3 +11,6 @@ titulo = input("Proporcione el titulo del libro: ")
 autor = input("Proporcione el autor del libro: ")
 
 print(titulo," fue escrito por ",autor)
+
+nombre = input("Digite un nombre: ")
+print("Hola {}".format(nombre))
